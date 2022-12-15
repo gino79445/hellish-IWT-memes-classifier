@@ -19,17 +19,19 @@
 
 ***hell_npy_val*** containing the data used to train and validate the third model.
 
+## code
+***meme_class.ipynb***: training the first model.
 
-## Run
-You have to make the antlr-3.5.2-complete.jar and makefile in current folder and the environment of java has been installed,and run the following command:  
-(*if you want to generate test1.c immediate code*)
-```shell
-make 
-java -cp ./antlr-3.5.2-complete.jar:. myCompiler_test test1.c >> test1.ll
-```
-or  
-```shell
-java -cp ./antlr-3.5.2-complete.jar org.antlr.Tool myCompiler.g
-javac -cp ./antlr-3.5.2-complete.jar:. *.java
-java -cp ./antlr-3.5.2-complete.jar:. myCompiler_test test1.c >> test1.ll
-```
+
+***hell_class_w2c.ipynb***: training the second model.
+
+
+***hell_class.ipynb***: training the third model.
+
+
+***hell_meme_cont_bert.ipynb***: generating  ***context _ bert _ hell***
+
+
+***meme_cont_bert.ipynb***: generating  ***context _ bert _ meme***
+
+
