@@ -7,11 +7,11 @@
 + **The third model:** the model of classifying into non-hellish IWT-memes and hellish IWT-memes.( text feature vectors obtained from BERT)
 
 ## The folders  
-***context _ bert _ meme*** containing the text feature vectors obtained from Bert, which is used to train the fisrt model. 
+***context _ bert _ meme***(incomplete) containing the text feature vectors obtained from Bert, which is used to train the fisrt model. 
 
-***w2c_context*** containing the text feature vectors obtained from word2vec, which is used to train the second model. 
+***w2c_context***(incomplete) containing the text feature vectors obtained from word2vec, which is used to train the second model. 
 
-***context _ bert _ hell*** containing the text feature vectors obtained from Bert, which is used to train the third model. 
+***context _ bert _ hell***(incomplete) containing the text feature vectors obtained from Bert, which is used to train the third model. 
 
 ***meme_npy_val*** containing the data used to train and validate the first model.
 
